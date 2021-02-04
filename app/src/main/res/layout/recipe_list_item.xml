@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/container_padding_top">
+
+    <ImageView
+        android:id="@+id/ivRecipeImage"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:contentDescription="@string/recipe_image"
+        android:paddingStart="@dimen/image_padding"
+        android:paddingEnd="@dimen/image_padding"
+        android:transitionName="@string/recipe_transition_image"
+        app:layout_constraintHeight_percent="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintWidth_percent="0.2" />
+
+    <TextView
+        android:id="@+id/tvRecipeName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="@dimen/recipe_name_text_size"
+        android:transitionName="@string/recipe_transition_name"
+        app:layout_constraintLeft_toRightOf="@id/ivRecipeImage"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvIngredients"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="@dimen/ingredients_text_size"
+        android:transitionName="@string/recipe_transition_ingredients"
+        app:layout_constraintLeft_toRightOf="@id/ivRecipeImage"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvRecipeName" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

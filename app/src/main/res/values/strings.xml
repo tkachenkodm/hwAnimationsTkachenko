@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">hwAnimations</string>
+    <string name="recipe_image">Recipe Image</string>
+    <string name="recipe_transition_name">recipe_name</string>
+    <string name="recipe_transition_ingredients">recipe_ingredients</string>
+    <string name="recipe_transition_image">recipe_image</string>
+    <string name="ingredients">Ingredients:</string>
+</resources>

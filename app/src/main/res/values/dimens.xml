@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="recipe_name_text_size">30sp</dimen>
+    <dimen name="ingredients_label_text_size">32sp</dimen>
+    <dimen name="ingredients_text_size">18sp</dimen>
+    <dimen name="container_padding_top">16dp</dimen>
+    <dimen name="image_padding">8dp</dimen>
+    <dimen name="label_padding">5dp</dimen>
+</resources>
